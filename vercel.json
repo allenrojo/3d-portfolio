@@ -1,19 +1,6 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/about", "destination": "/pages/about.html" },
-    { "source": "/contact", "destination": "/pages/contact.html" },
-    { "source": "/project-1", "destination": "/pages/project-1.html" },
-    { "source": "/project-2", "destination": "/pages/project-2.html" },
-    { "source": "/project-3", "destination": "/pages/project-3.html" },
-    { "source": "/project-4", "destination": "/pages/project-4.html" },
-    { "source": "/project-5", "destination": "/pages/project-5.html" },
-    { "source": "/project-6", "destination": "/pages/project-6.html" },
-    { "source": "/project-7", "destination": "/pages/project-7.html" },
-    { "source": "/project-8", "destination": "/pages/project-8.html" },
-    { "source": "/project-9", "destination": "/pages/project-9.html" },
-    { "source": "/project-10", "destination": "/pages/project-10.html" },
-    { "source": "/project-11", "destination": "/pages/project-11.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
 
   ]
 }
